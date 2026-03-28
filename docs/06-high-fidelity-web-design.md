@@ -70,7 +70,8 @@ The assignment submission format asks for a **Figma link (view access)**. If you
 
 ### Figma link
 
-- Paste the Figma view link in the root README: `README.md` → “Submission checklist”.
+- Figma (view access): https://www.figma.com/design/Dn3dUtrIfw5fLJW6gVrPFO/PAER?node-id=2-5&t=Cc8EyKZH0kFhJ5j9-1
+- Also listed in the root README under “Submission checklist”. Make sure access is set to “Anyone with the link can view”.
 
 ## UX improvements (mapped to evaluation)
 

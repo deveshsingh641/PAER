@@ -48,7 +48,9 @@ More detail is in the docs folder:
 
 ## Submission checklist
 
-- Figma link (view access): **Paste your view link here**
+- GitHub repo: https://github.com/deveshsingh641/PAER
+- Figma link (view access): https://www.figma.com/design/Dn3dUtrIfw5fLJW6gVrPFO/PAER?node-id=2-5&t=Cc8EyKZH0kFhJ5j9-1
+  - Access: set to “Anyone with the link can view”
   - Fast option: import screenshots of the implemented screens into Figma frames and connect them in Prototype mode (see [docs/06-high-fidelity-web-design.md](docs/06-high-fidelity-web-design.md)).
 - Short explanation (PDF / Notion / Slides): Export the `docs/` markdown to PDF, or share the `docs/` folder in Notion/Slides.
 
