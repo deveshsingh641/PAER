@@ -1,0 +1,27 @@
+{
+  "name": "paer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev-backend": "npm --workspace backend run dev",
+    "dev-frontend": "npm --workspace frontend run dev",
+    "dev": "concurrently -n backend,frontend -c blue,green npm:dev-backend npm:dev-frontend",
+    "build": "npm --workspace frontend run build",
+    "start-backend": "npm --workspace backend run start",
+    "start-frontend": "npm --workspace frontend run preview -- --host",
+    "start": "concurrently -n backend,frontend -c blue,green npm:start-backend npm:start-frontend",
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
